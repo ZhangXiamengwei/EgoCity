@@ -7,8 +7,8 @@
 ---
 
 **Author:** Xiamengwei Zhang  
-**Affiliation:** Capital Normal University, Department of Environmental Design  
-**Date:** April 2025  
+**Affiliation:** Capital Normal University, College of Fine Arts
+**Date:** October 2025  
 **Contact:** xiamengweizhang@gmail.com  
 
 ---
