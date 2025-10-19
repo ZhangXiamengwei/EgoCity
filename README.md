@@ -1,18 +1,40 @@
+# EgoCity Inference Toolkit
 
-# EgoCity Inference Toolkit  
-**Multi-person image reasoning & urban activity analysis based on LLaVA-NeXT**  
-<br>
+[![DOI](https://zenodo.org/badge/1079184943.svg)](https://doi.org/10.5281/zenodo.17390247)
+
+**Multi-person Image Reasoning & Urban Activity Analysis based on LLaVA-NeXT**
+
+---
 
 **Author:** Xiamengwei Zhang  
-**Affiliation:** Capital Normal University, Dept. of Environmental Design  
+**Affiliation:** Capital Normal University, Department of Environmental Design  
 **Date:** April 2025  
 **Contact:** xiamengweizhang@gmail.com  
 
 ---
 
-## 📘 Overview
+### 🧭 Overview
+EgoCity is an open-source multimodal framework for analyzing **public street space utilization** and **inclusiveness** using **vision-language models**.  
+It integrates multi-person image reasoning, activity recognition, and spatial statistics to support urban design and social equity research.
 
-This repository provides inference-only tools built on top of [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT), optimized for analyzing egocentric street-level video data. It integrates multi-person detection, identity deduplication, detailed behavior captioning, timestamp extraction, and diversity/utilization scoring.
+---
+
+### 📄 Citation
+If you use this toolkit, please cite:
+
+> Zhang, Xiamengwei. (2025). *EgoCity: A multimodal framework for analyzing public street space utilization and inclusiveness using vision-language models.*  
+> Zenodo. [https://doi.org/10.5281/zenodo.17390247](https://doi.org/10.5281/zenodo.17390247)
+
+```bibtex
+@misc{Zhang2025EgoCity,
+  author       = {Xiamengwei Zhang},
+  title        = {EgoCity: A multimodal framework for analyzing public street space utilization and inclusiveness using vision-language models},
+  year         = {2025},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.17390247},
+  url          = {https://doi.org/10.5281/zenodo.17390247}
+}
+```
 
 ### Key Modules:
 - 🧠 **Visual-Language Reasoning** via LLaVA (Qwen2-7B)
